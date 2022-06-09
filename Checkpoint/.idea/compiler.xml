@@ -10,18 +10,18 @@
         <module name="movie" />
         <module name="eureka" />
         <module name="configServer" />
-        <module name="catalog" />
         <module name="gateway" />
+        <module name="catalog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="biblioteca" target="11" />
-      <module name="catalog" target="11" />
+      <module name="catalog" target="${java.version}" />
       <module name="configServer" target="11" />
       <module name="eureka" target="11" />
-      <module name="gateway" target="11" />
+      <module name="gateway" target="${java.version}" />
       <module name="jogos" target="11" />
-      <module name="movie" target="11" />
+      <module name="movie" target="${java.version}" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
